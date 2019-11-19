@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app-with-ts",
+  "version": "1.0.0",
+  "description": "My top-notch Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.4",
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.4",
+    "@nuxtjs/eslint-config-typescript": "^0.1.3"
+  },
+  "lint": "eslint --ext .ts,.js,.vue ."
+}
