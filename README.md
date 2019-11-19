@@ -228,3 +228,13 @@ info All dependencies
 
 ```
 
+### create .eslintrc.js
+
+### change .eslintrc.js
+
+```
+# 下記を追加
+  extends: [
+    '@nuxtjs/eslint-config-typescript'
+  ],
+```
